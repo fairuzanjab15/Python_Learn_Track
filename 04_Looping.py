@@ -1,11 +1,13 @@
+a = input("Masukkan nama : ")
+
 i = 1
 
 for i in range (5):
-    print(i,"Priscilla")
+    print(i,"Nama")
 
 # print(" ")
-# print("1 Priscilla")
-# print("2 Priscilla")
-# print("3 Priscilla")
-# print("4 Priscilla")
-# print("5 Priscilla")
+# print("1 nama")
+# print("2 nama")
+# print("3 nama")
+# print("4 nama")
+# print("5 nama")

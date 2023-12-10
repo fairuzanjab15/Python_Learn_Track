@@ -1,13 +1,10 @@
-a = input("Masukkan nama : ")
 
-i = 1
+jumlah = 0
+angka = 1
 
-for i in range (5):
-    print(i,"Nama")
+while angka <= 100:
+    if angka % 2 == 0:
+        jumlah += 1
+    angka += 1
 
-# print(" ")
-# print("1 nama")
-# print("2 nama")
-# print("3 nama")
-# print("4 nama")
-# print("5 nama")
+print("Jumlah angka genap dari 1 sampai 100 adalah:", jumlah)

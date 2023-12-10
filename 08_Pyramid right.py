@@ -1,8 +1,16 @@
-maxi = input("Bilangan tertinggi : ")
+maxi = int(input("Bilangan tertinggi : "))
 
-p = int(maxi)
+for bawah in range(maxi):
+    for kanan in range(bawah+1):
+     print("*",end=' ')
+    print("\n")
 
-for row in range(0,p):
-    print(" ")
-    for ret in range(0,p):
-        print("*",end='')
+"""
+pyramid left
+"""
+
+
+for bawah in range(maxi):
+   print(" ",end=' ')
+   for kiri in range(bawah-1):
+    print("*")

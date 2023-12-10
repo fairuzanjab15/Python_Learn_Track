@@ -9,4 +9,4 @@ def sum(nominal):
 while True:
     price = input("Masukkan Harga: ")
     sum(price)
-    print("Total Harga : {0}".format(total))
+    print("Total Harga : {0}".format(total))100
